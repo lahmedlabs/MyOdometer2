@@ -84,8 +84,9 @@ public class OdometerService extends Service {
             listener = null;
         }
     }
-
+    /* add comments */
     public double getDistance() {
         return this.distanceInMeters / 1609.344;
     }
+
 }
